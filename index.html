@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="Imagens/Termômetro.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <title>Previsão do tempo</title>
+</head>
+<body>
+    <main>
+        <input type="text" id="Cidade" placeholder="Digite o nome da cidade">
+        <button class="Buscar" onclick="Enviar()">
+            <img src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+        <h2 id="Temp_Cidade">Tempo em Goiânia</h2>
+<br><br><br>
+        <p id="Temperatura">21° C</p>
+
+        <img id="Img-temperatura" src="https://openweathermap.org/img/wn/04n.png">
+        <br><br>
+        <p id="Clima">Nublado</p>
+        <p id="Umidade">Umidade 70%</p>
+    </main>
+</body>
+<script src="App.js"></script>
+</html>

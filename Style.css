@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-variation-settings: "wdth" 100;   
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+main{
+    width: 40%;
+    margin: auto;
+    opacity: 0.8;
+    height: 350px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    background-color: #181818;
+}
+
+#Cidade{
+    width: 40%;
+    height: 10%;
+    outline: none;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.Buscar{
+    top: 10px;
+    height: 10%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position:relative;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.Buscar img{
+    width: 100%;
+    height: 100%;
+}

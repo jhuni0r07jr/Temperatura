@@ -35,14 +35,15 @@ main{
 }
 
 #Cidade{
-    width: 40%;
+    width: 50%;
     height: 10%;
     outline: none;
     color: black;
     text-align: center;
+    margin-left: -20px;
     border-radius: 20px;
-    border: 1px solid black;
     margin-bottom: 20px;
+    border: 1px solid black;
 }
 
 .Buscar{
@@ -50,6 +51,7 @@ main{
     height: 10%;
     border: none;
     outline: none;
+    margin-right: -10px;
     cursor: pointer;
     position:relative;
     border-radius: 50px;
